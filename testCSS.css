@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navButton{color:#FFFFFF; font-size: 1.5em ;margin-left: 1em;margin-right: 1em; text-decoration: none; margin-top:10px}
+
+body{background-color:#339933 !important; margin:0;}
+
+h1{text-align: center;}
+/* Nav */
+nav {background-color:#326806 ; height:48px;margin:0px;display: inline-block;width:100%; line-height:1.9 !important; font-size:16px; font-family:Arial, Helvetica, sans-serif; }	
+nav ul{
+	list-style-type:none;padding-left:0
+}
+nav li{display:inline-block}
+
+nav li a:hover{
+	color:lime; text-decoration:none
+}
+
+#logo{ float:left; }
+
+/* Home Page */
+.carousel-inner img {
+	height:40rem;
+	
+	object-fit:cover;
+}
+.carousel-caption {
+	top:0;
+	bottom:auto;
+	text-transform:capitalize!important;
+	text-shadow:2px 2px 0 black;
+}
+
+#wrap {
+	width:100%; padding-top:20px; padding-bottom:20px; height:300px; color:white;
+}
+
+.left{
+	width:30%;
+	background-color:#326806;
+	min-width:450px;
+	height:250px;
+	float:left;
+	margin-left:35px;
+}
+.right{
+	width:30%;
+	min-width:450px;
+	background-color:#326806;
+	height:250px;
+	float:left;
+	margin-right:10px}
+	
+.right2 {
+	width:30%;
+	min-width:450px;
+	background-color:#326806;
+	height:250px;
+	float:left;
+	margin-left:3%;
+	margin-right:3%;
+
+}
+
+#eventhead{
+	text-decoration:underline}
+#wrappic{
+max-width:300px; float:left;}
+
+	
+/* Footer */	
+
+footer{background-color:#326806; text-align:center; width:100%; margin-bottom:0;margin-top:5%}
+
+footer a {
+	color:white
+}
+
+
+/* Tickets */	
+
+#tickettop {padding-top:3px; padding-bottom:3px;color:white;background-color:green}
+
+
+
+#tickets{width:40%; height:400px; margin-left:auto;margin-right:auto; margin-top:5%;}
+select{
+	padding-left:25px}
+	
+.right1{float:right; width:40%; padding-top:22px;padding-left:60px}
+
+
+.left1{float:left; width:40%;padding-left:3%}
+	
+#containgeneral{width:100%;height:130px;border:thin #326806 solid; background-color:green}	
+
+button{
+	padding: 14px 40px; background-color:green;display:block;}
+#buttondiv{
+	margin-top:40px; margin-left:46%; margin-bottom:20px
+}
+
+/* About us */	
+
+#aboutpic {margin-left:auto; margin-right: auto; display: block; margin-top: 1%;border:solid #0B6326 thin;}
+
+#AU {color:white; size: 6; }
+
+#Abouttext{background-color: green; width:1500px; margin-left: auto; margin-right:auto;padding-bottom:5px}
+
+#Abouttext p{margin-left: 2%;margin-right: 2%}
+
+#TY {
+	color:white
+}
+#AboutusF {
+	margin-top:15px
+}
+
+/* Contact us */	
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 2px solid green; 
+  border-radius: 8px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+input[type=tel], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 2px solid green; 
+  border-radius: 8px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+input[type=email], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 2px solid green; 
+  border-radius: 8px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+table {
+	margin-bottom:270px
+}
+form {
+	margin-top:15px
+}
+
+/* Thank you  */	
+
+#thankyou {
+	background-color:green; padding:20px 0 20px 0; width:1200px; margin-left:auto;margin-right:auto;
+}
+
+
+/* Map */	
+
+#wrapmap{
+	width:100%; padding-top:20px;height:700px;margin-bottom:100px}
+
+
+.mapouter{margin: 10px;}
+
+#mapleft {
+	width:30%;
+	background-color:green;
+	float:left;
+	margin-left:15%;
+	padding-left:5px;
+	text-align:center;
+}
+#mapright {
+	background-color:green;
+	float:right;
+	margin-right:15%;
+	width:30%;
+	padding: 13px 0 13px 0}
+#mappic{
+	margin:20px auto 0 auto;
+}
+/*Tour */
+#allcards{
+	margin-top:100px; margin-bottom:200px; width:100%
+}
+.card1{border: solid thick white;margin-left:4.5%;display:inline-block; width:27%;margin-bottom:3%; background-color:green}
+.card-title{
+	color:white;}
+.card-body{
+	text-align:center
+}
+
+
+
+/* mobile responsiveness */	
+
+
+#mobile{
+	display:none}
+#desktop{
+	display:inline}
+
+@media only screen and (max-width: 1500px) {
+    .left, .right2, .right {
+    width: 100%; margin:auto auto;border-bottom:medium green solid}
+    #tickets {
+	width:100%}
+	#Abouttext{
+	width:100%}
+	#aboutpic{
+	width:100%; display:block;height:auto}
+	#thankyou {
+	width:100%}
+	footer{
+	margin-top:0}
+	#wrapmap {
+	width:100%}
+	#mapleft, #mapright { width: 100%; margin:auto auto;border-bottom:medium green solid; margin-bottom:3px;}
+	.card1 {
+	width:100%;margin-left:0;margin-right:0;}
+	.card-img-top {
+	max-width:300px; float:left}
+	.card-body{
+	margin-left:30%}
+	#allcards{
+	margin-top:10px; margin-bottom:10px;}
+
+}
+
+ 
+
+@media screen and (max-width: 1011px) {
+  .left, .right2, .right {
+    width: 100%; margin-left:0;margin-right:0;border-bottom:medium green solid}
+    #tickets{
+	width:100%
+}
+    nav ul{width:100%}
+    nav ul li{
+	display:block ; text-align:center;border-bottom:thin white solid}
+	nav{height:50%;}
+	#logo{
+	float:none;margin-left:auto;margin-right:auto;display:block;width:50%}
+	#mobile{
+	display:inline}
+	#desktop{
+	display:none}
+	main{
+	height:auto}
+	#Abouttext{
+	width:100%}
+	#aboutpic{
+	width:100%; display:block;height:auto}
+	footer{
+	margin-top:0;margin-bottom:0;}
+	#wrapmap {
+	width:100%}
+	#mapleft, #mapright { width: 100%; margin:auto auto;border-bottom:medium green solid; margin-bottom:3px;
+	}	
+	#mappic{
+	width:90%; display:block; height:auto}
+	.card1 {
+	width:100%;margin-left:0;margin-right:0;}
+	.card-img-top {
+	max-width:300px; float:left}
+	.card-body{
+	margin-left:300px}
+	#allcards{
+	margin-top:3%; margin-bottom:3%;}
+
+}  
+	
+
+	
+	
+	
